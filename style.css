@@ -1,0 +1,79 @@
+.html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: skyblue;
+  background-image: url(https://images.unsplash.com/photo-1528818955841-a7f1425131b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c3RhcnJ5JTIwc2t5fGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+  background-size: cover; 
+  background-repeat: no-repeat;
+}
+
+.container1 {
+  padding: 1cm;
+  border-radius: 1cm;
+  width: 10%;
+  height: 100%;
+  position: absolute;
+  background-image: url(https://images.pexels.com/photos/53594/blue-clouds-day-fluffy-53594.jpeg?cs=srgb&dl=pexels-pixabay-53594.jpg&fm=jpg);
+   background-size: cover; 
+  background-repeat: no-repeat;
+/*   transform: translate(-0%, -200%); */
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 140px;
+}
+
+li a {
+  border-style: solid;
+  border-radius: 10px;
+  display: block;
+  color: darkblue;
+  border-color: darkgreen;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.container2 {
+  color: white;
+  margin-left: 240px;
+}
+
+/*
+.news_lists {
+  display: flex;
+}
+*/
+
+/*
+.news_lists_container {
+    position: relative;
+ }  
+*/
+
+h1 {
+  color: red;
+  font-size: 48px;
+}
+
+.news_lists_container {
+ /* position: rellative; */
+    float: left;
+    padding: 20px;
+    width: 45%;
+}
+
+.image_container {
+    float: left;
+    width: 100%;
+}
+
+.news_lists {
+    width: 100%;
+}
